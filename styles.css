@@ -1,0 +1,174 @@
+** start of styles.css **
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgba(170, 170, 148, 0.455);
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  color: black;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+} 
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.5s ease;
+}
+
+.nav-item {
+  padding: 12px;
+}
+
+.nav-item:hover {
+  background-color: rgb(126, 123, 123);
+  border-radius: 8px;
+  transition: color 1s ease;
+  background-color: 1s ease;
+}
+
+
+aside {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  position: absolute;
+  top: 140px;
+  right: 90px;
+  width: 200px;
+  height: 100px;
+  bottom: 5px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+fieldset {
+  border: none;
+  padding: 10px;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+
+input[type="button"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #529140;
+  border-color: white;
+  min-width: 150px;
+}
+
+label2 {
+  font-size: 18px;
+  display:block;
+  margin: 0.5rem 0;
+  font-family: 'monaco', monospace;
+}
+
+input, textarea {
+  background-color: #f0f0f5;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 80px;
+}
+
+
+main {
+   width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  position: absolute;
+  top: 220px;
+  left: 120px;
+  width: 200px;
+  height: 100px;
+  bottom: 5px;
+}
+
+p1 {
+  font-size: 20px;
+  color:rgb(115, 128, 97);
+  font-family: 'verdana', sans-serif;
+}
+
+
+t2 {
+  font-size: 35px;
+  font-family: 'lucida-console', monospace;
+}
+
+input[type="button2"] {
+  display: block;
+  width: 41%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #4e3c8cbb;
+  border-color: rgb(17, 17, 17);
+  min-width: 40px;
+}
